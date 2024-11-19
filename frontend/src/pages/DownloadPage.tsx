@@ -15,7 +15,7 @@ const DownloadPage: React.FC<DownloadPageProps> = ({ setPressKitOpen }) => {
   };
 
   const handleConfirm = () => {
-    const googleDriveLink = "https://drive.google.com/file/d/11JsiStty1fUpdYka3cQTmRIc9jqrpQCb/view?usp=sharing"; 
+    const googleDriveLink = "https://drive.google.com/file/d/1qisfI0RA9034JDT8IQU2kqQrbTCClb-d/view?usp=sharing"; 
     window.open(googleDriveLink, '_blank');
     setDownloadStarted(true);
     setShowModal(false);
